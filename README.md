@@ -28,6 +28,26 @@ Dataset:
 All images resized to 224×224 during processing
 Source: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
+Setup Instructions:
+
+1. Download and extract the ZIP file.
+2. Place the extracted folders in the root of this repo so it looks like this:
+
+PlantDocAI/
+├── train_val/
+│ ├── Potato___Early_blight/
+│ ├── Tomato___Late_blight/
+│ └── ...
+├── test/
+│ ├── test1.jpg
+│ └── test2.jpg
+├── main.ipynb
+├── disease_prediction.py
+├── class_names.json
+├── plant_model.pth
+
+After running the notebook completely a .pth file will be created with the best model weights.
+
 Accuracy: 96.43%
 
 Future Work
