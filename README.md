@@ -23,3 +23,29 @@ Model Architecture
 ->Loss Function: CrossEntropyLoss
 
 ->Input Size: 224×224 RGB image
+
+Dataset:
+All images resized to 224×224 during processing
+Source: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
+Accuracy: 96.43%
+
+Future Work
+->Add Grad-CAM explainability
+
+->Deploy with FastAPI or Streamlit
+
+->Extend to mobile deployment with ONNX
+
+Author
+Prince Kumar Mandal
+Gold Medalist - National AI Olympiad 🇳🇵
+
+Acknowledgments
+->PyTorch Team
+
+->New Plant Diseases Dataset
+
+->ResNet authors
+
+If you find this useful, star the repo to support the project!
